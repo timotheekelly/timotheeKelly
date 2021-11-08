@@ -27,7 +27,7 @@
 <br />
 
 
-[![Tims's GitHub stats](https://github-readme-stats.vercel.app/api?username=timotheekelly)](https://github.com/timotheekelly/github-readme-stats)
+[![Tims's GitHub stats](https://github-readme-stats.vercel.app/api?username=timotheekelly&show_icons=true&theme=tokyonight)](https://github.com/timotheekelly/github-readme-stats)
 
 
 
