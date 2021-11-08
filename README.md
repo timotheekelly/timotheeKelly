@@ -27,12 +27,12 @@
 <br />
 
 
-[![Tims's GitHub stats](https://github-readme-stats.vercel.app/api?username=timotheekelly&show_icons=true&theme=tokyonight)]
+![Tims's GitHub stats](https://github-readme-stats.vercel.app/api?username=timotheekelly&show_icons=true&theme=tokyonight)
 
 <br />
 <br />
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=timotheekelly)]
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=timotheekelly&hide=html)
 
 
 [website]: https://timotheekelly.com
