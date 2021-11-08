@@ -1,6 +1,6 @@
-### Hi there, I'm Tim 👋 
+### Hello there, I'm Tim 👋 
 
-## I'm a Developer and Student!!
+## I'm a Developer and Student
 
 
 ### Connect with me:
