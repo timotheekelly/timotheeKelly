@@ -27,8 +27,12 @@
 <br />
 
 
-[![Tims's GitHub stats](https://github-readme-stats.vercel.app/api?username=timotheekelly&show_icons=true&theme=tokyonight)](https://github.com/timotheekelly/github-readme-stats)
+[![Tims's GitHub stats](https://github-readme-stats.vercel.app/api?username=timotheekelly&show_icons=true&theme=tokyonight)]
 
+<br />
+<br />
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=timotheekelly)]
 
 
 [website]: https://timotheekelly.com
