@@ -25,6 +25,9 @@
 
 <br />
 
+[![Tims's GitHub stats](https://github-readme-stats.vercel.app/api?username=timotheekelly)](https://github.com/timotheekelly/github-readme-stats)
+
+
 
 [website]: https://timotheekelly.com
 [linkedin]: https://linkedin.com/in/timotheekelly
