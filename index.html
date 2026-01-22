@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Tim Kelly — Backend Engineer working on real-time systems in Java/Spring with experience in C++."
+    />
+    <title>Tim Kelly</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>Tim Kelly</h1>
+        <p class="subtitle">Backend Engineer · Real-Time Systems · Java / Spring · C++</p>
+      </header>
+
+      <main>
+        <p>
+          Software engineer based in Dublin, Ireland. I build backend systems and real-time data
+          pipelines, primarily in Java and Spring, with experience in C++. Work includes high-volume
+          streaming systems and integrating AI into enterprise workloads, with a focus on
+          performance, reliability, and observability.
+        </p>
+
+        <p class="links" aria-label="External links">
+          <a href="https://github.com/timotheekelly" target="_blank" rel="noreferrer">GitHub</a>
+          <span class="sep">|</span>
+          <a href="https://www.linkedin.com/in/timothee-kelly/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </p>
+
+        <hr />
+
+        <section>
+          <h2>Projects</h2>
+          <hr class="divider" />
+
+          <div class="project-list">
+            <div class="project">
+              <a class="project-title" href="https://github.com/mongodb-developer/frauddetector" target="_blank" rel="noreferrer">
+                Real-Time AI Fraud Detection
+              </a>
+              <p class="project-desc">
+                Streaming fraud detection pipeline using Spring Kafka and Kafka Streams. Persists
+                enriched events in MongoDB and uses vector similarity scoring as part of anomaly
+                detection.
+              </p>
+              <p class="project-stack">Spring · Kafka Streams · MongoDB · Vector Search</p>
+              <hr class="divider" />
+            </div>
+
+            <div class="project">
+              <a class="project-title" href="https://github.com/mongodb-developer/Real-Time-Financial-Aggregator" target="_blank" rel="noreferrer">
+                Real-Time Market Data Aggregator
+              </a>
+              <p class="project-desc">
+                Real-time market data ingestion pipeline with Kafka and MongoDB time-series
+                storage, designed for fast writes and queryable history.
+              </p>
+              <p class="project-stack">Java · Kafka · Time-Series</p>
+              <hr class="divider" />
+            </div>
+
+            <div class="project">
+              <a class="project-title" href="https://github.com/mongodb-developer/securerag" target="_blank" rel="noreferrer">
+                Secure Local RAG (RBAC)
+              </a>
+              <p class="project-desc">
+                Local RAG implementation with role-based access controls using Spring AI and Ollama,
+                with secure retrieval over MongoDB.
+              </p>
+              <p class="project-stack">Java · Spring AI · Ollama · MongoDB</p>
+              <hr class="divider" />
+            </div>
+
+            <div class="project">
+              <a class="project-title" href="https://github.com/mongodb-developer/movie-agent" target="_blank" rel="noreferrer">
+                AI Agent Platform
+              </a>
+              <p class="project-desc">
+                Tool-based agent workflows built in Java with LangChain4j, backed by MongoDB for
+                retrieval and structured tool results.
+              </p>
+              <p class="project-stack">Java · LangChain4j · MongoDB</p>
+              <hr class="divider" />
+            </div>
+          </div>
+        </section>
+
+        <section>
+            <h2>Speaking</h2>
+          
+            <div class="project-list">
+              <div class="project">
+                <hr class="divider" />
+                <a
+                  class="project-title"
+                  href="https://devnexus.com/events/real-time-fraud-detection-in-java-with-kafka-streams-vector-similarity"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                    DevNexus (2026) — Talk
+                </a>
+                <p class="project-desc">
+                    Real-Time Fraud Detection in Java with Kafka, Streams &amp; Vector Similarity 
+                </p>
+                <hr class="divider" />
+              </div>
+          
+              <div class="project">
+                <a
+                  class="project-title"
+                  href="https://2024.springio.net/sessions/mongodb-sprout-where-data-meets-spring-workshop/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                    Spring I/O (2024) — Workshop
+                </a>
+                <p class="project-desc">
+                    Integrating MongoDB with Spring applications
+                </p>
+                <hr class="divider" />
+              </div>
+          
+              <div class="project">
+                <a
+                  class="project-title"
+                  href="https://www.mongodb.com/events/mongodb-msft-build"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Microsoft Build (2024) — Talk
+                </a>
+                <p class="project-desc">
+                  Building RAG-style applications using Semantic Kernel with Atlas Vector Search
+                </p>
+                <hr class="divider" />
+              </div>
+            </div>
+        </section>
+          
+      </main>
+
+      <footer>
+        <small>© <span id="year"></span> Tim Kelly</small>
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
