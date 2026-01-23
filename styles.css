@@ -10,10 +10,6 @@
     --rule: #C8C8C8;
   }
   
-  
-  
-  
-  
   * {
     box-sizing: border-box;
     overflow-wrap: anywhere;
@@ -28,7 +24,7 @@
     font-family: "Courier New", Courier, monospace;
     line-height: 1.5;
   }
-  
+
   /* =========================
      Layout
      ========================= */
