@@ -3,12 +3,16 @@
    ========================= */
 
    :root {
-    --bg: #ffffff;
-    --fg: #000000;
-    --link: #0000ee;
-    --visited: #551a8b;
-    --rule: #c0c0c0;
+    --bg: #ECEAE6;
+    --fg: #0F0F0F;
+    --link: #0B3D91;     /* NASA blue */
+    --visited: #4B2E83;  /* muted purple */
+    --rule: #C8C8C8;
   }
+  
+  
+  
+  
   
   * {
     box-sizing: border-box;
@@ -92,14 +96,16 @@
     padding: 0 8px;
   }
   
+  a {
+    text-decoration: none;
+  }
+
   a:link {
     color: var(--link);
-    text-decoration: underline;
   }
   
   a:visited {
     color: var(--visited);
-    text-decoration: underline;
   }
   
   a:hover {
@@ -149,20 +155,17 @@
   .project-title {
     display: inline-block;
     font-weight: 700;
-    text-decoration: underline;
     margin-bottom: 6px;
   }
   
   .project-desc,
   .talk-desc {
     margin: 6px 0;
-    color: #111;
     max-width: 70ch;
   }
   
   .project-stack {
     margin: 0 0 2px 0;
-    color: #444;
     font-size: 13px;
   }
   
